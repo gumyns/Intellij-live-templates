@@ -31,4 +31,38 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="td1" value="Timber.d(&quot;$CLASS$ $name$ %s&quot;, $END$);" description="Timber.d" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="td2" value="Timber.d(&quot;$CLASS$ $name$ %s, %s&quot;, $s1$, $END$);" description="Timber.d" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="s1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="td4" value="Timber.d(&quot;$CLASS$ $name$ %s, %s, %s, %s&quot;, $s1$, $s2$, $s3$, $END$);" description="Timber.d" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="s1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="s2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="s3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="td3" value="Timber.d(&quot;$CLASS$ $name$ %s, %s, %s&quot;, $s1$, $s2$, $END$);" description="Timber.d" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="s1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="s2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
